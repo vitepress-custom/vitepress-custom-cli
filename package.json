@@ -1,12 +1,13 @@
 {
   "name": "@vitepress-custom/vitepress-custom-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "vitepress-custom-cli",
   "keywords": [
-    "vite",
-    "vitepress",
     "vitepress-custom",
+    "vitepress-custom-cli",
     "vitepress-plugin",
+    "vitepress",
+    "vite",
     "cli"
   ],
   "homepage": "https://github.com/vitepress-custom/vitepress-custom-cli",

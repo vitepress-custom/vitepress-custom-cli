@@ -2,7 +2,6 @@
 import chalk from 'chalk';
 import figlet from 'figlet';
 import inquirer from 'inquirer';
-
 // create
 import create from '../lib/create.js';
 
@@ -18,15 +17,21 @@ const question = [{
     default: 'vitepress-custom'
 }, {
     name: 'author',
-    description: '12313asf',
+    description: 'author',
     message: 'Author',
     default: 'huyikai'
+}, {
+    name: 'version',
+    description: 'version',
+    message: 'Version',
+    default: '1.0.0'
 }, {
     name: 'newDir',
     message: 'Create a new directory?',
     type: "list",
     choices: [{ name: 'yes', value: true }, { name: 'no', value: false }]
 }];
+
 // 初始化
 program
     .command('init')
